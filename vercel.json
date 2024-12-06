@@ -1,0 +1,21 @@
+{
+  "cleanUrls": true,  
+  "rewrites": [
+    {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/activities",
+      "destination": "/activities.html"
+    },
+    {
+      "source": "/course-programme",
+      "destination": "/course-programme.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html"
+    }
+  ]
+}
