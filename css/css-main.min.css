@@ -7750,6 +7750,9 @@ button.swiper-pagination-bullet {
 .cards__intro {
   margin-bottom: 7.5rem;
 }
+.opacity02{
+  opacity: 0.2;
+}
 .cards__entry {
   margin-bottom: 5rem;
 }
