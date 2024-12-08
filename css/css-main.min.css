@@ -927,6 +927,10 @@ html {
     flex: 0 0 8.33333333%;
     max-width: 8.33333333%;
   }
+  .opacity02{
+    opacity: 0.2;
+    display: none;
+  }
   .col-sm-2 {
     flex: 0 0 16.66666667%;
     max-width: 16.66666667%;
@@ -1239,6 +1243,10 @@ html {
   .row-cols-lg-4 > * {
     flex: 0 0 25%;
     max-width: 25%;
+  }
+  .opacity02{
+    opacity: 0.2;
+    display: none;
   }
   .row-cols-lg-5 > * {
     flex: 0 0 20%;
@@ -3250,6 +3258,10 @@ html {
   }
   .m-md-auto {
     margin: auto !important;
+  }
+  .opacity02{
+    opacity: 0.2;
+    display: none;
   }
   .mt-md-auto,
   .my-md-auto {
@@ -7752,6 +7764,7 @@ button.swiper-pagination-bullet {
 }
 .opacity02{
   opacity: 0.2;
+  display: block;
 }
 .cards__entry {
   margin-bottom: 5rem;
@@ -8607,4 +8620,9 @@ body.single section.full + .content {
 }
 .listpadding{
   padding-bottom: 35px;
+}
+
+@media only screen and (max-width: 900px) {
+  .opacity02{
+display: none;  }
 }
